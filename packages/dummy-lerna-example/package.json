@@ -3,8 +3,8 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "dummy-lerna-compound": "^0.0.1",
-    "dummy-lerna-fibonacci": "^0.0.1",
+    "dummy-lerna-compound": "^0.1.0",
+    "dummy-lerna-fibonacci": "^0.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
