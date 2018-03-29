@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "prepare": "rm -rf lib && babel index.js --out-dir lib --copy-files"
+    "prepare": "babel src --out-dir dist --copy-files"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",

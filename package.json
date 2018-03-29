@@ -1,9 +1,11 @@
 {
+  "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
-    "prepare": "lerna run prepare",
+    "prepublish": "rimraf packages/**/dist",
     "clean": "rimraf packages/**/lib",
+    "prepare": "lerna run prepare",
     "release": "lerna publish --conventional-commits"
   },
   "workspaces": [
