@@ -6,7 +6,8 @@
     "prepublish": "rimraf packages/**/dist",
     "prepare": "lerna run prepare",
     "prerelease": "lerna run prerelease",
-    "release": "lerna publish"
+    "release:alpha": "lerna publish --canary=alpha",
+    "release": "lerna publish --conventional-commits"
   },
   "workspaces": [
     "packages/*"
