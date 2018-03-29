@@ -1,7 +1,7 @@
 {
   "name": "dummy-lerna-compound",
   "version": "0.1.2",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "prepare": "babel src --out-dir dist --copy-files"
