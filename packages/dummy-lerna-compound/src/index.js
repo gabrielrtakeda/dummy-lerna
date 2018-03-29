@@ -1,3 +1,4 @@
+// comment
 const compound = (amount, fee, days) => {
   if (!amount) throw Error('`amount` is required.')
   if (!fee) throw Error('`fee` is required.')
