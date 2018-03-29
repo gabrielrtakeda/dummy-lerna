@@ -1,6 +1,13 @@
 {
   "name": "dummy-lerna-fibonacci",
   "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "rm -rf lib && babel index.js --out-dir lib --copy-files"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
