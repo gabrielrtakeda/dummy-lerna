@@ -4,14 +4,15 @@
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "prepublish": "rimraf packages/**/dist",
-    "clean": "rimraf packages/**/lib",
     "prepare": "lerna run prepare",
-    "release": "lerna publish --conventional-commits"
+    "prerelease": "lerna run prerelease",
+    "release": "lerna publish"
   },
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "lerna": "^2.9.0",
     "rimraf": "^2.6.2"
   }
 }
