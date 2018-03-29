@@ -1,0 +1,19 @@
+0 silly input [ 'dummy-lerna-compound', 'dummy-lerna-fibonacci' ]
+1 silly flags { _: [ 'add' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   scope: 'dummy-lerna-example',
+1 silly flags   _onRejected: [Function: _onRejected],
+1 silly flags   args: [ 'dummy-lerna-compound', 'dummy-lerna-fibonacci' ] }
+2 verbose rootPath /Users/gabrieltakeda/labs/npm/dummy-lerna
+3 info version 2.7.1
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/gabrieltakeda/labs/npm/dummy-lerna/VERSION
+7 info versioning independent
+8 info scope dummy-lerna-example
+9 silly initialize attempt
+10 error initialize callback with error
+11 error Error: Package `dummy-lerna-compound` doesn't exist
+11 error     at got.then.catch.err (/Users/gabrieltakeda/.nvm/versions/node/v9.4.0/lib/node_modules/lerna/node_modules/package-json/index.js:62:11)
+11 error     at <anonymous>
