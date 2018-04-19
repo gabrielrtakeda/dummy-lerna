@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/gabrielrtakeda/dummy-lerna/compare/v0.1.3...v0.1.4) (2018-04-19)
+
+
+### Bug Fixes
+
+* remove comment ([7a6ef39](https://github.com/gabrielrtakeda/dummy-lerna/commit/7a6ef39))
+
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/gabrielrtakeda/dummy-lerna/compare/v0.1.2...v0.1.3) (2018-03-29)
 
